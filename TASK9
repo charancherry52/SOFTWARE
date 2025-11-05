@@ -1,0 +1,60 @@
+TASK-9
+Test Cases for Both Black Box Testing and White Box Testing
+Aim:
+The aim is to write the test cases for both Black Box Testing and White Box Testing of the
+Online Banking System.
+Black Box Testing:
+Black box testing focuses on verifying system functionality without viewing internal code.
+Below are sample black box test cases for an Online Banking System.
+1. User Registration:
+o Test Case: Register a new user with valid inputs.
+o Expected Result: Registration successful.
+o Pass/Fail: Pass
+o Test Case: Register with missing or invalid details.
+o Expected Result: Display error message.
+o Pass/Fail: Pass
+2. User Login:
+o Test Case: Login with valid credentials.
+o Expected Result: User dashboard displayed.
+o Pass/Fail: Pass
+o Test Case: Login with incorrect password.
+o Expected Result: Error “Invalid credentials.”
+o Pass/Fail: Pass
+3. Fund Transfer:
+o Test Case: Transfer funds with sufficient balance.
+o Expected Result: Transaction successful.
+o Pass/Fail: Pass
+o Test Case: Transfer funds with insufficient balance.
+o Expected Result: Display “Insufficient funds.”
+o Pass/Fail: Pass
+4. Account Details Retrieval:
+o Test Case: View account balance and transaction history.
+o Expected Result: Correct account details displayed.
+o Pass/Fail: Pass
+5. Bill Payment:
+o Test Case: Pay bill with correct details.
+o Expected Result: Payment confirmation displayed.
+o Pass/Fail: Pass
+White Box Testing:
+White box testing ensures internal logic, algorithms, and code paths work correctly.
+Below are white box test cases for the Online Banking System.
+1. Login Functionality:
+o Test Case 1: Validate successful login with correct credentials.
+o Expected Result: Redirect to user dashboard.
+o Test Case 2: Attempt login with invalid data.
+o Expected Result: Display error message.
+2. Fund Transfer Logic:
+o Test Case: Verify deduction and credit logic between sender and receiver.
+o Expected Result: Balances updated accurately in both accounts.
+3. Transaction Recording:
+o Test Case: Ensure every transaction is logged in the database.
+o Expected Result: Transaction record stored successfully.
+4. Balance Check:
+o Test Case: Validate that balance cannot go negative after a transaction.
+o Expected Result: Transaction rejected if insufficient funds.
+5. Account Update:
+o Test Case: Test updating user profile or password.
+o Expected Result: Changes saved successfully in the database.
+Result:
+Thus, the Black Box and White Box Testing test cases for the Online Banking System were
+designed and verified successfully.
