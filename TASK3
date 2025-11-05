@@ -1,0 +1,77 @@
+TASK-3
+To Prepare a Detailed Estimate using the FP and COCOMO Model and to
+Prepare a Detailed Project Schedule for Online Banking System
+Aim:
+To perform estimation using Function Point (FP) and COCOMO models and to develop a
+project schedule for the Online Banking System.
+FP Model
+The Functional Size of the Online Banking System is measured in Function Points (FP),
+which represent the functional complexity of the software application.
+Step 1:
+[F = 14 \times \text{scale}]
+The scale varies from 0 to 5, depending on the Complexity Adjustment Factor (CAF).
+Scale Influence Level
+0 No Influence
+1 Incidental
+2 Moderate
+3 Average
+4 Significant
+5 Essential
+Step 2: Calculate Complexity Adjustment Factor (CAF)
+[CAF = 0.65 + (0.01 \times F)]
+Step 3: Calculate Unadjusted Function Point (UFP)
+Function Units Low Avg High
+External Inputs (EI) 3 4 6
+External Outputs (EO) 4 5 7
+External Inquiries (EQ) 3 4 6
+Internal Logical Files (ILF) 7 10 15
+Function Units Low Avg High
+External Interface Files (EIF) 5 7 10
+Step 4: Calculate Function Point
+[FP = UFP \times CAF]
+Given data for the Online Banking System:
+Parameter Value
+Number of user inputs 24
+Number of user outputs 46
+Number of inquiries 8
+Number of files 4
+Number of external interfaces 2
+Effort 36.9 person-months
+Technical documents 265 pages
+User documents 122 pages
+Cost $7744 per month
+When average complexity values are considered:
+FP = UFP × CAF, which provides the total size estimate of the Online Banking System.
+COCOMO Model
+A project for the Online Banking System is estimated to be 400 KLOC.
+The effort and development time for all three models — Organic, Semi-detached, and
+Embedded — are calculated using the Basic COCOMO equations:
+[Effort = a \times (KLOC)^b \text{ PM}]
+[T_{dev} = c \times (Effort)^d \text{ Months}]
+Estimated Size of Project = 400 KLOC
+(i) Organic Mode
+[Effort = 2.4 \times (400)^{1.05} = 1295.31 \text{ PM}]
+[T_{dev} = 2.5 \times (1295.31)^{0.38} = 38.07 \text{ Months}]
+(ii) Semi-Detached Mode
+[Effort = 3.0 \times (400)^{1.12} = 2462.79 \text{ PM}]
+[T_{dev} = 2.5 \times (2462.79)^{0.35} = 38.45 \text{ Months}]
+(iii) Embedded Mode
+[Effort = 3.6 \times (400)^{1.20} = 4772.81 \text{ PM}]
+[T_{dev} = 2.5 \times (4772.81)^{0.32} = 38.00 \text{ Months}]
+Project Scheduling
+A project schedule is a detailed timetable that defines the sequence of tasks, responsible
+resources, and deadlines required to complete the Online Banking System efficiently.
+Phase Activities Duration
+Requirement
+Analysis Collect user requirements and system goals 2 weeks
+Design Phase Create system architecture and database design 3 weeks
+Development Phase Implement core modules (Login, Fund Transfer, Account
+Management) 8 weeks
+Testing Phase Perform unit, integration, and security testing 4 weeks
+Deployment Phase Host on secure server and launch for end-users 2 weeks
+Maintenance &
+Updates Ongoing bug fixes and feature updates Continuous
+Result:
+Thus, the estimation using Function Point (FP) and COCOMO models has been successfully
+performed for the Online Banking System, and a detailed project schedule has been prepared
+to ensure systematic and timely completion of the project.
