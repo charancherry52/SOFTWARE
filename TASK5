@@ -1,0 +1,85 @@
+TASK -5
+Interaction Diagram (UML Sequence &
+Communication Diagram)
+Aim:
+The aim is to find the interaction between objects and represent them using UML Sequence
+and Communication Diagrams for the Online Banking System.
+Interaction Diagrams:
+Interaction diagrams depict the interactions between objects and their relationships. They also
+include the messages passed between them.
+There are two types of interaction diagrams:
+• Sequence Diagram
+• Collaboration (Communication) Diagram
+Interaction diagrams are used for modeling:
+• The control flow by time ordering using sequence diagrams.
+• The control flow of organization using collaboration (communication) diagrams.
+Sequence Diagram:
+A Sequence Diagram is a type of interaction diagram that describes how—and in what
+order—a group of objects works together.
+It shows the time order of messages exchanged among the system’s components (objects or
+actors).
+Drawing a sequence diagram helps to:
+• Represent the details of a UML use case.
+• Model the logic of a transaction or operation.
+• Understand how system components collaborate to complete a process.
+• Plan and verify the functionality of existing or future scenarios.
+Notations:
+1. Object
+2. Actor
+3. Lifeline
+SEQUENCE DIAGRAM
+Description:
+In the Online Banking System, the process of a customer transferring funds can be illustrated.
+1. 2. 3. 4. 5. 6. 7. The Customer initiates a fund transfer request through the online portal or mobile
+app.
+The System verifies the customer’s login credentials and authentication (e.g., OTP
+validation).
+The Account object checks the available balance to ensure sufficient funds.
+If the balance is sufficient, the Transaction object processes the transfer to the
+recipient’s account.
+The Database records the transaction details and updates the account balances for
+both sender and receiver.
+The Notification system sends a confirmation message (SMS/email) to the customer.
+The customer receives confirmation that the transfer was successful.
+This sequence diagram clearly represents the step-by-step process of how a customer
+interacts with the Online Banking System to perform a secure fund transfer.
+Communication (Collaboration) Diagram:
+The Communication Diagram shows the relationship and message flow between the objects
+in the system.
+It represents the structure of object interactions rather than the sequence of messages.
+Both the sequence and communication diagrams describe the same functionality but from
+different viewpoints — the communication diagram focuses on object links and message
+exchange.
+Notations Used:
+• Rectangles represent objects that make up the system.
+• Lines represent relationships between class instances.
+• Arrows indicate messages sent between objects.
+• Numbering indicates the order of message flow.
+Description:
+In the Online Banking System, a typical communication scenario for fund transfer can be
+described as follows:
+1. The Customer sends a transfer request to the System.
+2. The System verifies the Customer’s credentials and validates the transaction through
+the Authentication module.
+3. The System communicates with the Account to check for available balance.
+4. The Transaction module initiates the fund transfer process if the balance is sufficient.
+5. The Database updates both the sender’s and receiver’s account balances.
+6. The Notification system sends a confirmation message to the customer.
+7. Finally, the Customer receives acknowledgment of the completed transfer.
+This communication diagram illustrates the interaction and message exchange among various
+system components during an online fund transfer process.
+Example Message Flow:
+Step Sender Receiver Message / Action
+1 Customer System Initiate transfer
+2 System Authentication Verify credentials
+3 System Account Check balance
+Step Sender Receiver Message / Action
+4 Account Transaction Process fund transfer
+5 Transaction Database Update account balances
+6 Database Notification Generate confirmation
+7 Notification Customer Send confirmation
+COMMUNICATION DIAGRAM
+Result:
+Thus, the interaction between objects has been identified, and the UML Sequence Diagram
+and Communication Diagram for the Online Banking System have been designed
+successfully.
