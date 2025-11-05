@@ -1,0 +1,46 @@
+TASK 10
+PROTOTYPE OF THE PROJECT
+Aim
+To design and develop an Online Banking System that allows customers to securely perform
+banking activities such as balance inquiry, fund transfer, bill payment, and transaction history
+viewing through a user-friendly web interface.
+Component Diagram:
+The component diagram represents the high-level structure showing different
+components and their interactions.
+Main Components:
+• User Interface (Web Portal)
+• Application Server
+• Database Server
+• Authentication Service
+• Transaction Service
+Notation:
+1. A Component
+2. Node
+• Notification
+Package Diagram:
+Represents the organization of system components into packages.
+Packages:
+• com.bank.user → Login, Registration, Profile
+• com.bank.admin → User Management, Reports
+• com.bank.transaction → Fund Transfer, History
+• com.bank.database → Data Models, DAO
+• com.bank.security → Encryption, Validation
+Notation:
+1. Package
+2. Dependency
+------------------------- >
+Development Diagrams:
+Use Case Diagram
+Actors:
+• Customer
+• Admin
+Use Cases:
+• Login / Logout
+• View Balance
+• Transfer Funds
+• View Transactions
+• Manage Users (Admin)
+• Generate Reports (Admin)
+Result:
+The system meets the objectives of providing a secure, reliable, and user-friendly banking
+experience online.
