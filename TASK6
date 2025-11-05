@@ -1,0 +1,50 @@
+TASK-6
+User Interface Diagram, State Transition Diagram,and
+Activity Diagram
+Aim:
+The aim is to model the User Interface Diagrams, State Transition Diagram, and Activity
+Diagram for the Online Banking System.
+User Interface Diagram
+User Interface (UI) design focuses on building interactive, user-friendly interfaces that enable
+seamless communication between the user and the system.
+The user interface design for an Online Banking System aims to provide a simple and secure
+way for customers to perform banking operations such as viewing account details,
+transferring funds, checking balances, and managing user profiles.
+The interface includes clear menus, navigation bars, buttons, and input fields to ensure users
+can easily access required services.
+Visual elements such as icons for fund transfer, bill payments, account statements, and logout
+are organized intuitively. The design prioritizes simplicity, accessibility, and data security to
+provide a safe and convenient banking experience for all users.
+USER INTERFACE DIAGRAM
+State Transition Diagram
+A State Transition Diagram (or Statechart) illustrates various states and transitions an Online
+Banking System undergoes during its operation.
+In this system, the initial state is “Idle”, where the system waits for a user to log in.
+After successful login, it transitions to the “Authenticated” state, allowing the user to access
+account features.
+From here, the system can transition into multiple states such as:
+• “Viewing Account” (when the user checks account balance or statement)
+• “Transferring Funds” (when the user performs money transfers)
+• “Paying Bills” (when settling online payments)
+• “Updating Profile” (for password or details update)
+After completing transactions, the system returns to the “Idle” or “Logout” state.
+This diagram helps visualize system behavior and the logical sequence of operations during
+user interactions.
+STATE TRANSITION DIAGRAM
+Activity Diagram
+An Activity Diagram represents the workflow of activities performed in the Online Banking
+System from start to completion.
+The activity begins when a user accesses the login page and enters valid credentials. Once
+authenticated, the user can select actions such as checking balance, transferring funds, paying
+bills, or viewing transaction history.
+Each selected operation proceeds through its own activity flow — for example, in fund
+transfer, the user enters the beneficiary details, specifies the amount, confirms the
+transaction, and receives a confirmation message.
+Finally, the activity concludes when the user logs out of the system.
+This diagram simplifies understanding of the process flow and shows how the user interacts
+with different banking features.
+ACTIVITY DIAGRAM
+Result:
+Thus, the User Interface Diagram, State Transition Diagram, and Activity Diagram for the
+Online Banking System have been successfully designed, illustrating the structure, state flow,
+and activity sequence of the system.
