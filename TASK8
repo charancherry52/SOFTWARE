@@ -1,0 +1,45 @@
+TASK -8
+Data Flow Diagrams
+Aim:
+The aim is to implement Data Flow Diagrams (DFD) to perform the data modeling with
+Level 0, Level 1, and Level 2 analysis for the Online Banking System.
+Data Flow Diagram
+A Data Flow Diagram (DFD) represents how data moves through the Online Banking
+System. It shows how information is input, processed, stored, and output. DFDs provide
+insight into the system’s data handling without involving control flow, loops, or decision
+rules.
+Notations in DFD:
+• Process: Represents a function or activity (e.g., Fund Transfer, Account Login).
+• Data Flow: Indicates the direction of data movement.
+• Data Store: Represents data storage (e.g., Database).
+• External Entity: Represents sources or destinations of data (e.g., Customer, Admin).
+Levels of DFD:
+The Online Banking System DFD is represented in hierarchical levels to ensure clarity and
+transparency.
+• 0-Level DFD: Represents the entire banking system as one process, showing
+interactions between the customer, admin, and the system.
+• 1-Level DFD: Depicts major modules such as Login/Registration, Account
+Management, Fund Transfer, and Transaction History.
+• 2-Level DFD: Shows internal operations of each module — for instance, fund transfer
+verification, balance deduction, transaction logging, and confirmation generation.
+• 3-Level DFD: (Optional) Represents detailed data flow within each function, showing
+data validation, API requests, and database updates.
+Level 0 DFD:
+The customer interacts with the Online Banking System to perform transactions. The system
+accesses the database and returns the requested data such as account balance, transaction
+details, or payment confirmation.
+Level 0 DFD
+Level 1 DFD:
+Breaks the system into main processes — User Authentication, Fund Management, Account
+Details Retrieval, and Transaction Handling. Each process interacts with the Bank Database
+for data validation and updates.
+Level 1 DFD
+Level 2 DFD:
+Further elaborates each main process. For example, Fund Management includes steps such as
+verifying balance, deducting amount, recording transaction, and notifying both sender and
+receiver.
+LEVEL 2 DFD
+Result:
+Thus, the Data Flow Diagrams for the Online Banking System have been successfully
+designed up to Level 2, representing the detailed flow of data between users, processes, and
+the database.
