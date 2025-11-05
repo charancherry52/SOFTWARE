@@ -1,0 +1,66 @@
+TASK-1
+Design of Problem Statement, Feasibility Study, and Process Model
+Aim:
+The aim is to design a problem statement, perform a detailed feasibility study, and finalize the
+process model to be used for developing an Online Banking System.
+Problem Statement:
+In an Online Banking System, registered users can securely access their bank accounts
+through the internet to perform various financial operations such as fund transfer, balance
+enquiry, mini statement, bill payments, and profile management.
+Users log in using a secure username and password verified with the bank’s database. Once
+authenticated, users can view their account balance, transfer funds to other accounts, pay
+utility bills, or download mini statements for recent transactions.
+The system must ensure data security, encryption for transactions, and session management to
+prevent unauthorized access. After completing transactions, users should receive
+confirmation messages and have the option to download or print receipts.
+Scope:
+The scope of the Online Banking System is to provide customers with a secure and
+convenient digital platform to manage their financial activities anytime and anywhere. It
+allows users to transfer funds, pay bills, check balances, and view transaction history, while
+ensuring robust security measures, encryption, and compliance with banking standards.
+Feasibility Study:
+Technical Feasibility:
+The Online Banking System can be developed using modern web technologies such as Java /
+Node.js for backend, Angular / React for frontend, and MySQL as the database.
+It requires a secure server, SSL encryption, and authentication mechanisms. Since these tools
+and technologies are widely available and cost-effective, the system is technically feasible.
+Economic Feasibility:
+The cost of developing the Online Banking System includes server setup, software licensing
+(if required), developer resources, and maintenance.
+However, the benefits—such as reduced manual workload, faster services, and customer
+satisfaction—far outweigh the initial investment. Thus, the system is economically feasible.
+Operational Feasibility:
+The system is designed to be user-friendly and accessible through both web and mobile
+devices. Users only need basic computer or smartphone knowledge to operate it.
+Administrators and bank staff can easily manage users and transactions using a simple
+interface. Therefore, the system is operationally feasible.
+Process Model: Agile Model
+The Agile process model is preferred for developing the Online Banking System due to its
+adaptability and focus on user collaboration.
+1. Iterative and Incremental Development:
+Features like login, fund transfer, and mini statements can be developed and refined in
+small iterations.
+2. Flexibility to Changing Requirements:
+Agile allows the team to incorporate updates in banking regulations or user feedback
+easily.
+3. Frequent User Involvement:
+Regular input from customers and banking staff ensures the system meets usability
+and security expectations.
+4. Continuous Integration and Testing:
+Each feature undergoes frequent testing to ensure security, reliability, and
+performance.
+5. Rapid Delivery of Value:
+A Minimum Viable Product (MVP) with basic banking operations can be released
+early for user testing.
+6. Adaptability to Risks:
+Agile helps identify and mitigate risks related to cybersecurity and compliance.
+7. Collaboration Between Teams:
+Continuous coordination between developers, testers, and bank officials ensures
+smooth integration.
+8. Customer Satisfaction:
+Continuous user feedback and regular updates improve customer trust and
+satisfaction.
+Result:
+Thus, the problem statement for the Online Banking System has been defined, a detailed
+feasibility study has been performed, and the Agile process model has been finalized as the
+best approach for its development.
